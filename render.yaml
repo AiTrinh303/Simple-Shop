@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-frontend
+    env: node
+    buildCommand: cd frontend && npm install
+    startCommand: cd frontend && npm start
+    rootDir: ./frontend
