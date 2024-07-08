@@ -1,0 +1,28 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background: white;
+}
+
+.sidebarItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #f6f6f6;
+    gap: 20px;    
+}
+
+@media(max-width: 800px){
+    .sidebar{
+        padding
+    }
+}
